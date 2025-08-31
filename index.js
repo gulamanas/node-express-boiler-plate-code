@@ -19,7 +19,7 @@ app.use(
 );
 
 app.get('/', (req, res) => {
-    res.send('Hello Agra Footwear');
+    res.send('Hello World!');
 })
 app.use('/auth', authRouter);
 
